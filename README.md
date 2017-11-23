@@ -1,2 +1,2 @@
-# bitgenics.io
-Website for Bitgenics
+# react-app-bitgenics.io
+react version of bitgenics.io

@@ -1,0 +1,2 @@
+import ArticlesSummarySection from './ArticlesSummarySection'
+export default ArticlesSummarySection
