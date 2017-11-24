@@ -1,6 +1,6 @@
 {
-  "name": "bitgenics-react",
-  "version": "0.1.0",
+  "name": "bitgenics.io",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.0.0",
