@@ -79,6 +79,7 @@ export default props => <ContactSection id="signup">
         value="" 
         name="EMAIL"  
         id="mce-EMAIL" 
+        aria-label="Newsletter Signup"
         aria-required="true" 
         placeholder="Email Address "
       />

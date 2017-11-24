@@ -94,6 +94,7 @@ export default props => <Hero {...props}>
     <StyledVideo>
       <iframe 
         frameBorder="0"
+        title="Linc Explainer Video"
         data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=0" 
         allowfullscreen="allowfullscreen" 
         src="https://fast.wistia.net/embed/iframe/a0j2rlho90?videoFoam=true//bitgenics.wistia.com/medias/a0j2rlho90?embedType=async&amp;videoFoam=true&amp;videoWidth=640&amp;autoPlay=false"

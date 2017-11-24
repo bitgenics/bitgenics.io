@@ -42,7 +42,7 @@ const Icon = styled.img`
 export default props => <Box {...props}>
   <FeatureList>
     <Feature background={require('./ClockBack.svg')}>
-      <Icon src={require('./ClockBack.svg')} />
+      <Icon alt="Fast" src={require('./ClockBack.svg')} />
       <Title>Blazingly Fast</Title>
       <p>
         Your site is hosted all around the world, close to where your users are. 
@@ -51,7 +51,7 @@ export default props => <Box {...props}>
       </p>
     </Feature>
     <Feature background={require('./BusinessManWoman.svg')}>
-      <Icon src={require('./BusinessManWoman.svg')} />
+      <Icon alt="SEO" src={require('./BusinessManWoman.svg')} />
       <Title>SEO and Social Sharing</Title>
       <p>
         Our Server-Side Rendering engine renders your content to all of your 
@@ -60,7 +60,7 @@ export default props => <Box {...props}>
       </p>
     </Feature>
     <Feature background={require('./DataCloud.svg')}>
-      <Icon src={require('./DataCloud.svg')} />
+      <Icon alt="Reliable" src={require('./DataCloud.svg')} />
       <Title>Reliable Managed Hosting</Title>
       <p>
         We take care of all the hosting for you and because Linc is built on top 

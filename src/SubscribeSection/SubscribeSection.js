@@ -56,7 +56,7 @@ export default props => <Row>
     <p>Get the best tips and tricks straight to your inbox. 
       Unsubscribe at any time.</p>
     <div>
-      <StyledInput placeholder="Email Address" />
+      <StyledInput aria-label="Sign up" placeholder="Email Address" />
       <StyledButton>
         Subscribe
       </StyledButton>

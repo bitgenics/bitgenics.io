@@ -70,7 +70,7 @@ const Content = styled.div`
 
 export default ({ quote, image, name, title, ...otherProps }) => <div {...otherProps}>
   <ImageContainer>
-    <Image src={image} />
+    <Image alt={name} src={image} />
   </ImageContainer>
   <Content>
     <Quote>

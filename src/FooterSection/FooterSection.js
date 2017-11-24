@@ -84,22 +84,22 @@ export default ({noSocial, otherProps}) => <FooterSection {...otherProps}>
   <Row>
     {noSocial ? null : <SocialList>
       <SocialItem>
-        <a href="https://blog.bitgenics.io/" target="_self">
+        <a aria-label="Blog" href="https://blog.bitgenics.io/" target="_self">
           <MediumIcon />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="https://twitter.com/bitgenics" target="_self">
+        <a aria-label="Twitter" href="https://twitter.com/bitgenics" target="_self">
           <TwitterIcon />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="https://github.com/bitgenics/" target="_self">
+        <a aria-label="Github" href="https://github.com/bitgenics/" target="_self">
           <GithubIcon />
         </a>
       </SocialItem>
       <SocialItem>
-        <a href="#">
+        <a aria-label="Youtube" href="#">
           <YouTubeIcon />
         </a>
       </SocialItem>
