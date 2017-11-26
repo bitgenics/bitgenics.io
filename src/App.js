@@ -1,13 +1,56 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Route } from 'react-router'
-import HomePage from './HomePage'
-import StartupPage from './StartupPage'
-import BusinessPage from './BusinessPage'
-import PrivacyPolicyPage from './PrivacyPolicyPage'
-import LegalPage from './LegalPage'
-import BlogPage from './BlogPage'
-import ArticlePage from './ArticlePage'
 import { injectGlobal } from 'styled-components'
+import Loadable from 'react-loadable'
+
+const HomePage = Loadable({
+  loader: () => import('./HomePage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const StartupPage = Loadable({
+  loader: () => import('./StartupPage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const BusinessPage = Loadable({
+  loader: () => import('./BusinessPage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const PrivacyPolicyPage = Loadable({
+  loader: () => import('./PrivacyPolicyPage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const LegalPage = Loadable({
+  loader: () => import('./LegalPage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const BlogPage = Loadable({
+  loader: () => import('./BlogPage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
+
+const ArticlePage = Loadable({
+  loader: () => import('./ArticlePage'),
+  loading() {
+    return <div>Loading... </div>
+  },
+})
 
 injectGlobal`
   body {
