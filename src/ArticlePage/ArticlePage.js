@@ -46,7 +46,7 @@ export default props => <ArticlePage>
   <h1>4 Freelancers Discuss Working in NYC</h1>
   
   <SmallAuthor 
-    profileImage={require('./../FeaturedArticle/nitish-meena-99219.jpg')} 
+    profileImage={require('./../BlogPage/nitish-meena-99219.jpg')} 
   >
     by Jane Smith &bull; 3rd Oct 2017
   </SmallAuthor>

@@ -33,7 +33,9 @@ const SideSection = styled.div`
 
 export default props => <BlogPage {...props}>
   <Header />
-  <FeaturedArticle />
+  <FeaturedArticle 
+    image={require('./nitish-meena-99219.jpg')} 
+  />
   <ArticlesSummarySection />
   <Row>
     <SummaryArticlesContainer>

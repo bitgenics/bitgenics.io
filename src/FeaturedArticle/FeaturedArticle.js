@@ -28,7 +28,7 @@ const Content = styled.div`
   @media(min-width: 768px){
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
+    width: ${props => props.image ? '50%' : 'undefined'};
     padding-right: 42px;
   }
 `
@@ -55,10 +55,10 @@ const RegularImage = styled.img`
   }
 `
 
-export default props => <FeaturedArticle {...props}>
+export default ({image, ...otherProps}) => <FeaturedArticle {...otherProps}>
   <Row>
-    <Content>
-      <RegularImage src={require('./nitish-meena-99219.jpg')} />
+    <Content image={image}>
+      {image ? <RegularImage src={image} /> : null}
       <Tag>Today's article</Tag>
       <Title>4 Freelancers Discuss Working In NYC</Title>
       <AuthorWidget />
@@ -68,6 +68,6 @@ export default props => <FeaturedArticle {...props}>
         company. About 34% of...
       </Summary>
     </Content>
-    <StyledImage src={require('./nitish-meena-99219.jpg')} />
+    {image ? <StyledImage src={image} /> : null}
   </Row>
 </FeaturedArticle>
