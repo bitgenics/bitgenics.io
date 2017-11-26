@@ -5,6 +5,8 @@ import SmallAuthor from './../SmallAuthor'
 import Row from './../Row'
 import AuthorSection from './../AuthorSection'
 import SubscribeSection from './../SubscribeSection'
+import SubscribeBox from './../SubscribeBox'
+import LinksBox from './../LinksBox'
 
 const ArticlePage = styled.div`
 
@@ -40,16 +42,38 @@ const Paragraph = styled.p`
 `
 
 
+const InnerContent = styled.div`
+  @media(min-width: 990px){ 
+    width: 810px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+  }
+`
+
+const SideSection = styled.div`
+  display: none;
+  @media(min-width: 1170px){ 
+    margin-top: 50px;
+    width: 330px;
+    display: inline-block;
+    vertical-align: top;
+  }
+`
+
+
 export default props => <ArticlePage>
   <Header />
   <Rule />
-  <h1>4 Freelancers Discuss Working in NYC</h1>
-  
-  <SmallAuthor 
-    profileImage={require('./../BlogPage/nitish-meena-99219.jpg')} 
-  >
-    by Jane Smith &bull; 3rd Oct 2017
-  </SmallAuthor>
+  <Row>
+    <h1>4 Freelancers Discuss Working in NYC</h1>
+    
+    <SmallAuthor 
+      profileImage={require('./../BlogPage/nitish-meena-99219.jpg')} 
+    >
+      by Jane Smith &bull; 3rd Oct 2017
+    </SmallAuthor>
+  </Row>
   <Content>
     <Row>
       <Paragraph>
@@ -62,36 +86,42 @@ export default props => <ArticlePage>
     </Row>
     <Hero src={require('./nitish-meena-99219.jpg')} />
     <Row>
-      <Paragraph>
-        Vegan schlitz ramps, seitan trust fund kale chips gluten-free street art. 
-        Messenger bag offal enamel pin, YOLO master cleanse tumblr mustache 
-        selfies adaptogen fingerstache ramps whatever stumptown kogi wayfarers. 
-        You probably haven't heard of them jianbing squid ugh iPhone PBR&B 
-        tote bag. Hashtag sartorial tilde pitchfork brooklyn. Next level kinfolk 
-        paleo quinoa four loko pop-up succulents. Bicycle rights +1 typewriter 
-        lyft kickstarter, echo park master cleanse brooklyn pabst put a 
-        bird on it. Neutra aesthetic banjo PBR&B, marfa shoreditch vinyl. 
-        Twee direct trade food truck cardigan. Shabby chic banjo drinking vinegar 
-        pop-up, cred iceland roof party vinyl offal fingerstache. Marfa VHS cred,
-      </Paragraph>
-      <Quote>
-        Our dollar toast semiotics subway tile cloud bread vape swag yuccie 
-        messenger bag authentic offal food truck poutine. Pitchfork meggings 
-        williamsburg fam typewriter pour-over deep v drinking vinegar kombucha 
-        fashion axe activated charcoal vexillologist. IPhone artisan selfies 
-        butcher taxidermy 
-      </Quote>
-      <Paragraph>
-        Vegan schlitz ramps, seitan trust fund kale chips gluten-free street art. 
-        Messenger bag offal enamel pin, YOLO master cleanse tumblr mustache 
-        selfies adaptogen fingerstache ramps whatever stumptown kogi wayfarers. 
-        You probably haven't heard of them jianbing squid ugh iPhone PBR&B tote 
-        bag. Hashtag sartorial tilde pitchfork brooklyn. Next level kinfolk 
-        paleo quinoa four loko pop-up succulents. Bicycle rights +1 typewriter 
-        lyft kickstarter, echo park master cleanse brooklyn pabst put a bird 
-        on it. Neutra aesthetic banjo PBR&B, marfa shoreditch vinyl. Twee 
-        direct trade food truck cardigan. 
-      </Paragraph>
+      <InnerContent>
+        <Paragraph>
+          Vegan schlitz ramps, seitan trust fund kale chips gluten-free street art. 
+          Messenger bag offal enamel pin, YOLO master cleanse tumblr mustache 
+          selfies adaptogen fingerstache ramps whatever stumptown kogi wayfarers. 
+          You probably haven't heard of them jianbing squid ugh iPhone PBR&B 
+          tote bag. Hashtag sartorial tilde pitchfork brooklyn. Next level kinfolk 
+          paleo quinoa four loko pop-up succulents. Bicycle rights +1 typewriter 
+          lyft kickstarter, echo park master cleanse brooklyn pabst put a 
+          bird on it. Neutra aesthetic banjo PBR&B, marfa shoreditch vinyl. 
+          Twee direct trade food truck cardigan. Shabby chic banjo drinking vinegar 
+          pop-up, cred iceland roof party vinyl offal fingerstache. Marfa VHS cred,
+        </Paragraph>
+        <Quote>
+          Our dollar toast semiotics subway tile cloud bread vape swag yuccie 
+          messenger bag authentic offal food truck poutine. Pitchfork meggings 
+          williamsburg fam typewriter pour-over deep v drinking vinegar kombucha 
+          fashion axe activated charcoal vexillologist. IPhone artisan selfies 
+          butcher taxidermy 
+        </Quote>
+        <Paragraph>
+          Vegan schlitz ramps, seitan trust fund kale chips gluten-free street art. 
+          Messenger bag offal enamel pin, YOLO master cleanse tumblr mustache 
+          selfies adaptogen fingerstache ramps whatever stumptown kogi wayfarers. 
+          You probably haven't heard of them jianbing squid ugh iPhone PBR&B tote 
+          bag. Hashtag sartorial tilde pitchfork brooklyn. Next level kinfolk 
+          paleo quinoa four loko pop-up succulents. Bicycle rights +1 typewriter 
+          lyft kickstarter, echo park master cleanse brooklyn pabst put a bird 
+          on it. Neutra aesthetic banjo PBR&B, marfa shoreditch vinyl. Twee 
+          direct trade food truck cardigan. 
+        </Paragraph>
+      </InnerContent>
+      <SideSection>
+        <SubscribeBox />
+        <LinksBox />
+      </SideSection>
     </Row>
     <AuthorSection />
     <SubscribeSection />
