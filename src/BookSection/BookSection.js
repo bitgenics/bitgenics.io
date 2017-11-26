@@ -19,10 +19,13 @@ const Title = styled.h2`
 `
 
 
-const Text = styled.p`
+const Link = styled.a`
   font-size: 12px;
   margin-top: 13px;
   margin-bottom: 0;
+  color: lightgray;
+  display: block;
+  text-decoration: none;
 `
 
 const StyledButton = styled(Button)`
@@ -33,8 +36,8 @@ export default props => <BookSection>
   <Row>
     <Title>Let us show you Linc, free of charge.</Title>
     <StyledButton href="https://calendly.com/bitgenics/linc-demo">Book a demo</StyledButton>
-    <Text>
+    <Link href="https://github.com/bitgenics/linc-cli">
       Or check out our "Getting Started Page" yourself.
-    </Text>
+    </Link>
   </Row>
 </BookSection>

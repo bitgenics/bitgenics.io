@@ -63,6 +63,7 @@ injectGlobal`
     font-weight: 400;
     font-family: 'Lato','Verdana','Helvetica', sans-serif;
     background-color: #fafafa;
+    text-align: center;
   }
 
   h1, h2, h3, h4, h5 {
