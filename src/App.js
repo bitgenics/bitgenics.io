@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
-import './App.css';
 import './fonts.css'
 import { Route } from 'react-router'
 import HomePage from './HomePage'
