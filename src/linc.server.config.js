@@ -31,6 +31,7 @@ const config = {
     <meta property="og:image" content="https://www.bitgenics.io/logo.png" />
 
     <title>Bitgenics - Linc a front-end delivery platform for single page web applications</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Rubik" rel="stylesheet">
     `
   }
 };
