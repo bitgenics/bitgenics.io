@@ -31,28 +31,6 @@ const config = {
     <meta property="og:image" content="https://www.bitgenics.io/logo.png" />
 
     <title>Bitgenics - Linc a front-end delivery platform for single page web applications</title>
-    <style>
-body {
-  margin: 0;
-  font-size: 1em;
-  line-height: 1.85714286em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #666;
-  font-weight: 400;
-  font-family: 'Lato','Verdana','Helvetica', sans-serif;
-  background-color: #fafafa;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Rubik','Helvetica', sans-serif;
-  color: #252525;
-}
-
-p {
-  font-size: 14px;
-}
-    </style>
     `
   }
 };
