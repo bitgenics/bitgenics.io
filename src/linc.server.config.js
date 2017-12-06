@@ -1,20 +1,12 @@
 const config = {
-/*
-  getHTTPHeaders: (req, assets) => {
-    return [
-      {name: 'Link', value: '<https://fast.wistia.net/embed/iframe/a0j2rlho90?videoFoam=true//bitgenics.wistia.com/medias/a0j2rlho90>;rel=preload;as=document;crossorigin=anonymous'},
-      {name: 'Link', value: '<https://fast.wistia.net/assets/external/E-v1.js>;rel=preload;as=script;crossorigin=anonymous'}
-      
-    ]
-  },
-*/
 
   getStaticHead: (req) => {
     return `
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#65457b">
-    <!--link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!--link rel="preload" as="script" crossorigin="anonymous" href="https://fast.wistia.com/assets/external/E-v1.js"> 
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" -->
     <meta name="description" property="og:description" content="Linc is a front-end delivery platform for single page web applications designed to improve search engine indexing and social sharing" >
     

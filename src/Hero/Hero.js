@@ -92,15 +92,8 @@ export default props => <Hero {...props}>
   </Content>
   <VideoWrap>
     <StyledVideo>
-      <iframe 
-        frameBorder="0"
-        title="Linc Explainer Video"
-        data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=0" 
-        allowfullscreen="allowfullscreen" 
-        src="https://fast.wistia.net/embed/iframe/a0j2rlho90?videoFoam=true//bitgenics.wistia.com/medias/a0j2rlho90?embedType=async&amp;videoFoam=true&amp;videoWidth=640&amp;autoPlay=false"
-        style={{width: '100%', height: '100%'}}
-      >
-      </iframe> 
+      <div className="wistia_embed wistia_async_a0j2rlho90 videoFoam=true autoPlay=false">&nbsp;
+      </div>
     </StyledVideo>
   </VideoWrap>
 </Hero>
