@@ -74,12 +74,19 @@ injectGlobal`
   p {
     font-size: 14px;
   }
+
+  #gtm-iframe {
+    display: none;
+    visibility: hidden
+  }
 `
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <noscript><iframe id="gtm-iframe" src="https://www.googletagmanager.com/ns.html?id=GTM-MR5JLVW"
+height="0" width="0"></iframe></noscript>
         <Route path="/" exact component={HomePage} />
         <Route path="/startup" component={StartupPage} />
         <Route path="/business" component={BusinessPage} />
