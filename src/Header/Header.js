@@ -84,10 +84,10 @@ export default props => <Header {...props}>
         </Item>
       </List>
       <ButtonsWrapper>
-        <StyledButton href="https://calendly.com/bitgenics/linc-demo">
+        <StyledButton id="gtm-header-demo-btn" href="https://calendly.com/bitgenics/linc-demo">
           book a demo
         </StyledButton>
-        <StyledButton alternate href="https://github.com/bitgenics/linc-cli">
+        <StyledButton id="gtm-header-download-btn" alternate href="https://github.com/bitgenics/linc-cli">
           download
         </StyledButton>
       </ButtonsWrapper>
