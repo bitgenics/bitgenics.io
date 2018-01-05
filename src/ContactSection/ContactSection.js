@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Row from './../Row'
 
 const Col = styled.div`
-  
+
   box-sizing: border-box;
   @media(min-width: 768px){
     width: 50%;
@@ -74,16 +74,16 @@ export default props => <ContactSection id="signup">
     <Col style={{textAlign: 'left'}}>
       <SubHeader>Subscribe to our mailing list</SubHeader>
       <Label for="mce-EMAIL">Email Address </Label>
-      <EmailInput 
-        type="email" 
-        value="" 
-        name="EMAIL"  
-        id="mce-EMAIL" 
+      <EmailInput
+        type="email"
+        value=""
+        name="EMAIL"
+        id="mce-EMAIL"
         aria-label="Newsletter Signup"
-        aria-required="true" 
+        aria-required="true"
         placeholder="Email Address "
       />
-      <Button>Subscribe</Button>
+      <Button id="gtm-subscribe-btn-footer">Subscribe</Button>
     </Col>
   </Row>
 </ContactSection>
