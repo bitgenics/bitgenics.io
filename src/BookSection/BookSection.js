@@ -35,7 +35,7 @@ const StyledButton = styled(Button)`
 export default props => <BookSection>
   <Row>
     <Title>Let us show you Linc, free of charge.</Title>
-    <StyledButton href="https://calendly.com/bitgenics/linc-demo">Book a demo</StyledButton>
+    <StyledButton id="gtm-demo-btn" href="https://calendly.com/bitgenics/linc-demo">Book a demo</StyledButton>
     <Link href="https://github.com/bitgenics/linc-cli">
       Or check out our "Getting Started Page" yourself.
     </Link>
