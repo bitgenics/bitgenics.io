@@ -5,8 +5,8 @@ import VideoContainer from './VideoContainer'
 import Button from './../Button'
 
 const Hero = styled.div`
-  min-height: 555px;  
-  position: relative; 
+  min-height: 555px;
+  position: relative;
   overflow: hidden;
 `
 
@@ -69,7 +69,7 @@ const StyledVideo = VideoContainer.extend`
     height: 358px;
     margin-right: 0;
     margin-bottom: 0;
-    
+
   }
 `
 
@@ -81,14 +81,14 @@ const LeadText = styled.p`
 
 export default props => <Hero {...props}>
   <Background />
-  
+
   <Content>
     <Title><b>Supercharge</b> your React-based website</Title>
-    <LeadText> 
-      Are you using React? We build, optimise and host your website or web app 
+    <LeadText>
+      Are you using React? We build, optimise and host your website or web app
       for superior performance, optimal SEO and outstanding social sharing.
     </LeadText>
-    <Button alternate href="https://github.com/bitgenics/linc-cli">Get Started</Button>
+    <Button id="gtm-hero-get-started-btn" alternate href="https://github.com/bitgenics/linc-cli">Get Started</Button>
   </Content>
   <VideoWrap>
     <StyledVideo>
