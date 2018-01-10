@@ -99,7 +99,7 @@ export default props => <ArticlePage>
 
         <Paragraph>
         <h2>Software is eating the world</h2>
-        This is an <a hreff ="https://techcrunch.com/2016/06/07/software-is-eating-the-world-5-years-later/">old quote by Marc Andreessen</a> of Netscape & VC fame to describe the increased importance & impact software has on our world. It was true back then and is even truer now. There is absolutely nothing anymore that does not rely on software one way or another.
+        This is an <a href ="https://techcrunch.com/2016/06/07/software-is-eating-the-world-5-years-later/">old quote by Marc Andreessen</a> of Netscape & VC fame to describe the increased importance & impact software has on our world. It was true back then and is even truer now. There is absolutely nothing anymore that does not rely on software one way or another.
         </Paragraph>
 
         <Paragraph>
