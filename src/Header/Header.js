@@ -73,7 +73,7 @@ export default props => <Header {...props}>
           </StyledLink>
         </Item>
         <Item>
-          <StyledLink href="https://blog.bitgenics.io">
+          <StyledLink href="/blog">
             Blog
           </StyledLink>
         </Item>
