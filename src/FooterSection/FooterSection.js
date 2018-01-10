@@ -45,11 +45,11 @@ const iconStyles = {
   transform: 'rotate(180deg)',
 }
 
-const MediumIcon = props =>
+const BlogIcon = props =>
   <svg width="15px" height="15px" viewBox="0 0 1024 866"
     style={iconStyles}
   >
-    <path d="M1016 726l-324 162c-2 0-2 0-4 0-4 0-10-2-12-4l-198-326 222-362 320 518c2 4 0 10-4 12zM372 672v-350l312-156zM710 154l286-144c14-8 28 0 28 18v636zM336 724l-298 148-20 12c-2 0-4 2-6 2-4 0-6-2-8-4s-4-6-4-12v-682c0-12 8-26 18-30l294-148c4-2 8-4 12-4 10 0 16 8 16 22v690c0 2 0 4-4 6z" />
+  <path fill="#666" stroke="#666" d="M84.933,0H15.067C6.747,0,0,7.061,0,15.771v33.692c0,8.71,6.747,15.771,15.067,15.771h11.528c0,6.205,0,12.41,0,18.617c0,1.027,1.412,1.751,2.143,0.888c5.492-6.502,10.985-13.003,16.478-19.505h39.717c8.32,0,15.067-7.061,15.067-15.771V15.771C100,7.061,93.253,0,84.933,0z"/>
   </svg>
 
 const TwitterIcon = props =>
@@ -72,14 +72,11 @@ const StyledLink = styled(Link)`
   color: inherit;
 `
 
+{/* TODO add back blog svg and link */}
+
 export default ({noSocial, otherProps}) => <FooterSection {...otherProps}>
   <Row>
     {noSocial ? null : <SocialList>
-      <SocialItem>
-        <a aria-label="Blog" href="https://blog.bitgenics.io/" target="_self">
-          <MediumIcon />
-        </a>
-      </SocialItem>
       <SocialItem>
         <a id="gtm-twitter-footer" aria-label="Twitter" href="https://twitter.com/bitgenics" target="_self">
           <TwitterIcon />
