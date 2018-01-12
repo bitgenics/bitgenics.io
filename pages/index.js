@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 import Page from 'components/Page'
 import Hero from 'components/Homepage/Hero'
