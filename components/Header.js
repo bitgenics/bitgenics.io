@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Link from 'next/link'
 import styled from 'styled-components'
-import Button from './Button'
-import Row from './Row'
-import { List, Item, StyledLink } from './HorizontalList'
+import Button from 'components/Button'
+import Row from 'components/Row'
+import Logo from 'components/Logo'
+import { List, Item, StyledLink } from 'components/HorizontalList'
 
 const Nav = styled.nav`
   padding: 26px 0;
@@ -12,7 +12,6 @@ const Nav = styled.nav`
     text-align: right;
   }
 `
-
 
 const ButtonsWrapper = styled.div`
   @media(min-width: 768px){
@@ -40,24 +39,13 @@ const Header = styled.div`
     display: block;
   }*/
 `
-const Logo = styled.img`
-  height: 36px;
-  vertical-align: middle;
-  margin: 10px 15px;
-  position: relative;
-  float: right;
-  @media(min-width: 768px){
-    float: left;
-  }
-`
+
 
 export default props =>
 <Header {...props}>
   <Nav>
     <Row>
-      <Link href="/">
-        <Logo alt="Logo" src="/static/full_logo.svg"/>
-      </Link>
+      <Logo />
       <List>
         <Item>
           <StyledLink href="#product">
