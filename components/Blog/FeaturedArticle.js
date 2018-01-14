@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Row from 'component/Row'
-import Tag from 'component/Tag'
+import Row from 'components/Row'
+import Tag from 'components/Blog/Tag'
 import AuthorWidget from './AuthorWidget'
 
 const FeaturedArticle = styled.div`
