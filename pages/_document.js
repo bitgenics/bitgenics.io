@@ -21,8 +21,9 @@ export default class MyDocument extends Document {
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-MR5JLVW');`}}>
           </script>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90175441-1"></script>
+          <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-90175441-1"></script>
           <script dangerouslySetInnerHTML={{__html: `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-90175441-1");`}}></script>
+          <script defer src="https://fast.wistia.com/assets/external/E-v1.js"></script>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta name="theme-color" content="#65457b" />
           <meta name="description" property="og:description" content="Linc is a front-end delivery platform for single page web applications designed to improve search engine indexing and social sharing" />

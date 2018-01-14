@@ -22,5 +22,7 @@
     "sourceDir": "src",
     "buildProfile": "linc-profile-nextjs",
     "siteName": "bitgenics"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "bitgenics.io@1.0.0"
 }

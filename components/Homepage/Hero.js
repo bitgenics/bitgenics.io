@@ -52,7 +52,6 @@ const VideoWrap = styled.div`
   }
 `
 
-
 const StyledVideo = VideoContainer.extend`
   height: 220px;
   margin-bottom: 25px;
