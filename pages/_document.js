@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Bitgenics - Linc a front-end delivery platform for single page web applications" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.bitgenics.io" />
-          <meta property="og:image" content="https://www.bitgenics.io/logo.png" />
+          <meta property="og:image" content="https://www.bitgenics.io/static/full_logo.svg" />
 
           <title>Bitgenics - Linc a front-end delivery platform for single page web applications</title>
         </Head>
