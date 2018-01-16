@@ -26,7 +26,7 @@ class Dots extends Component {
     const { total, selectedIndex } = this.props
     var items = []
     for (var i = 0; i < total; i++){
-      items.push(<Point selected={i==selectedIndex} />)
+      items.push(<Point key={i} selected={i==selectedIndex} />)
     }
     return <List>
       {items}

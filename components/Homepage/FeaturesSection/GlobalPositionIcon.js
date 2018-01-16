@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => <svg version="1.1" id="Global-Position" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" >
+export default props => <svg version="1.1" id="Global-Position" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enableBackground="new 0 0 500 500" >
   <g>
     <path fill="#FFFFFF" d="M400.232,334.324c2.584,0,4.684-0.81,6.299-2.425s2.423-3.392,2.423-5.33c0-2.584-0.808-4.684-2.423-6.301
       c-1.615-1.615-3.715-2.423-6.299-2.423H86.201c-1.939,0-3.716,0.808-5.332,2.423c-1.615,1.617-2.423,3.717-2.423,6.301

@@ -1,5 +1,5 @@
 import React from 'react'
-export default props => <svg version="1.1" id="Globe" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enable-background="new 0 0 500 500">
+export default props => <svg version="1.1" id="Globe" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enableBackground="new 0 0 500 500">
   <path fill="#FFFFFF" d="M478,262c2.667,0,4.833-0.834,6.5-2.5s2.5-3.5,2.5-5.5c0-2.666-0.833-4.833-2.5-6.5s-3.833-2.5-6.5-2.5H17
     c-2,0-3.833,0.833-5.5,2.5C9.834,249.167,9,251.334,9,254c0,2,0.834,3.834,2.5,5.5c1.667,1.666,3.5,2.5,5.5,2.5H478L478,262z
       M427,109c2,0,3.833-0.834,5.5-2.5s2.5-3.834,2.5-6.5c0-2-0.833-3.834-2.5-5.5S429,92,427,92H68c-2,0-3.833,0.834-5.5,2.5

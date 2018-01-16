@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default props => <svg version="1.1" id="Upload-toCloud" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enable-background="new 0 0 500 500">
+export default props => <svg version="1.1" id="Upload-toCloud" x="0px" y="0px" width="78px" height="78px" viewBox="0 0 500 500" enableBackground="new 0 0 500 500">
   <path fill="#FFFFFF" d="M312.052,301.387c1.293,0,2.586-0.322,3.879-0.97c1.292-0.646,2.262-1.292,2.908-1.938
     c1.293-1.939,1.777-4.039,1.455-6.303c-0.323-2.262-1.455-4.039-3.394-5.332l-51.388-39.752c-1.293-1.293-2.908-1.939-4.848-1.939
     c-1.938,0-3.878,0.646-5.817,1.939L205.4,286.844c-1.939,1.293-3.069,3.069-3.394,5.332c-0.324,2.264,0.161,4.363,1.455,6.303
