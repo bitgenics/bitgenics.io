@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.2.1",
-    "linc-profile-nextjs": "^0.14.0"
+    "linc-profile-nextjs": "^0.2.1"
   },
   "linc": {
     "sourceDir": "src",
