@@ -24,3 +24,5 @@ The repository for the Bitgenics website and blog.
 `$ linc build`
 
 `$ linc publish`
+
+'$ linc release'
