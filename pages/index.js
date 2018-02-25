@@ -9,7 +9,7 @@ import TestimonialsSection from 'components/Homepage/TestimonialsSection'
 import PricingSection from 'components/Homepage/PricingSection'
 
 export default () => (
-  <Page headTitle="Bitgenics">
+  <Page headTitle="Linc - a front-end delivery platform for progressive web apps">
     <Hero />
     <AboutSection />
     <FeaturesSection />
