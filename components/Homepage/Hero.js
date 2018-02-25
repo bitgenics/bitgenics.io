@@ -82,10 +82,9 @@ export default props => <Hero {...props}>
   <Background />
 
   <Content>
-    <Title><b>Supercharge</b> your React-based website</Title>
+    <Title><b>Ultimate</b> control over your Progressive Web App</Title>
     <LeadText>
-      Are you using React? We build, optimise and host your website or web app
-      for superior performance, optimal SEO and outstanding social sharing.
+      We built the best hosting platform for JavaScript Front-ends so you can focus on building amazing products.
     </LeadText>
     <Button id="gtm-hero-get-started-btn" alternate href="https://github.com/bitgenics/linc-cli">Get Started</Button>
   </Content>

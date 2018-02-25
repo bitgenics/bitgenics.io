@@ -62,12 +62,8 @@ export default props => <StyledRow {...props} id="product">
       <b>LINC</b> is a front-end delivery platform
     </SubTitle>
     <LeadText>
-      Technologies like React and Angular allow us to create amazing user 
-      experiences, but they come at a cost. Downloading all the Javascript takes 
-      a long time, search engines have a hard time indexing your site and there 
-      is no preview data for social sites like Facebook, Twitter or Slack.
+      Linc provides hosting optimised for progressive web applications with server side rendering to greatly enhance page load speed as well as improvements to SEO and social sharing. Test on multiple enviroments, even in production and release with confidence.
 
-      <br /><br />We have fixed that.
     </LeadText>
   </Summary>
   <StyledFeatures />

@@ -41,32 +41,25 @@ const Icon = styled.img`
 
 export default props => <Box {...props}>
   <FeatureList>
-    <Feature background="/static/ClockBack.svg">
-      <Icon alt="Fast" src="/static/ClockBack.svg" />
-      <Title>Blazingly Fast</Title>
+    <Feature background="/static/Upload-toCloud.svg">
+      <Icon alt="Deploy" src="/static/Upload-toCloud.svg" />
+      <Title>Deploy</Title>
       <p>
-        Your site is hosted all around the world, close to where your users are. 
-        With support for code splitting, service workers, asset fingerprinting 
-        and more your site will be shown to your users as fast as possible.
+        Deploy to all environments on every push to version control. Pick your preferred way of deploying new code. At the CLI, via our API or through a Webook for your favourite VCS such as Github.
       </p>
     </Feature>
     <Feature background="/static/BusinessManWoman.svg">
       <Icon alt="SEO" src="/static/BusinessManWoman.svg" />
-      <Title>SEO and Social Sharing</Title>
+      <Title>Test</Title>
       <p>
-        Our Server-Side Rendering engine renders your content to all of your 
-        clients, both users and crawlers, as regular HTML. Perfect for both 
-        SEO and Social Sharing.
+        Test any version in any environment (even production!). After deployment you get a URL specific for that versiona nd environment. This allows you to test in production without distrupting your users.
       </p>
     </Feature>
     <Feature background="/static/DataCloud.svg" >
       <Icon alt="Reliable" src="/static/DataCloud.svg" />
-      <Title>Reliable Managed Hosting</Title>
+      <Title>Release</Title>
       <p>
-        We take care of all the hosting for you and because Linc is built on top 
-        of the latest managed services by AWS and runs in multiple regions and 
-        availability zones, you can rest assured your site or application is in 
-        great hands.
+        Release to your customers without any downtime guaranteed. Linc allows you to instantly switch between versions. So if you do have problems, switching back to the previous version takes seconds.
       </p>
     </Feature>
   </FeatureList>
