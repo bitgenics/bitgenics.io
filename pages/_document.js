@@ -26,16 +26,16 @@ export default class MyDocument extends Document {
           <script defer src="https://fast.wistia.com/assets/external/E-v1.js"></script>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta name="theme-color" content="#65457b" />
-          <meta name="description" property="og:description" content="Linc is a front-end delivery platform for single page web applications designed to improve search engine indexing and social sharing" />
+          <meta name="description" property="og:description" content="Linc is a front-end delivery platform optimised for testing and hosting progressive web applications. Get started for free" />
 
           <meta name="author" content="Bitgenics" />
           <meta name="robots" content="index, follow" />
 
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@bitgenics" />
-          <meta name="twitter:title" content="Bitgenics - Linc a front-end delivery platform for single page web applications" />
+          <meta name="twitter:title" content="Bitgenics - Linc is a front-end delivery platform optimised for testing and hosting progressive web applications. Get started for free" />
 
-          <meta property="og:title" content="Bitgenics - Linc a front-end delivery platform for single page web applications" />
+          <meta property="og:title" content="Bitgenics - Linc is a front-end delivery platform optimised for testing and hosting progressive web applications. Get started for free" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.bitgenics.io" />
           <meta property="og:image" content="https://www.bitgenics.io/static/full_logo.svg" />
