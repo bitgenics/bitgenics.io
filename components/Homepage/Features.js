@@ -52,7 +52,7 @@ export default props => <Box {...props}>
       <Icon alt="SEO" src="/static/BusinessManWoman.svg" />
       <Title>Test</Title>
       <p>
-        Test any version in any environment (even production!). After deployment you get a URL specific for that versiona nd environment. This allows you to test in production without distrupting your users.
+        Test any version in any environment (even production!). After deployment you get a URL specific for that version and environment. This allows you to test in production without distrupting your users.
       </p>
     </Feature>
     <Feature background="/static/DataCloud.svg" >
