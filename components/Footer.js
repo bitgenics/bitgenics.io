@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Row from 'components/Row'
 import Link from 'next/link'
+import SubScribe from "./Subscribe"
 
 const Col = styled.div`
 
@@ -24,45 +25,6 @@ const LogoContainer = styled.div`
 const ContactSection = styled.div`
   padding-top: 13px;
   padding-bottom: 13px;
-`
-
-const EmailInput = styled.input`
-  width: 100%;
-  padding: 6.5px 13px;
-  font-size: 14px;
-  border: 1px solid #ABB0B2;
-  border-radius: 3px;
-  box-sizing: border-box;
-`
-
-const Label = styled.label`
-  font-size: 12px;
-`
-
-const Button = styled.button`
-  clear: both;
-  background-color: #aaa;
-  border: 0 none;
-  border-radius: 4px;
-  transition: all 0.23s ease-in-out 0s;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: normal;
-  height: 32px;
-  line-height: 32px;
-  margin: 0 5px 10px 0;
-  padding: 0 22px;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: top;
-  white-space: nowrap;
-  width: auto;
-`
-
-const SubHeader = styled.h2`
-  font-size: 19.6px;
 `
 
 const Logo = styled.img`
@@ -152,19 +114,8 @@ export default ({noSocial}) => (
           <LogoContainer><Logo alt="Logo" src="/static/full_logo.svg"/></LogoContainer>
           <p style={{display: 'inline-block'}}>Supercharge your workflow</p>
         </Col>
-        <Col style={{textAlign: 'left'}}>
-          <SubHeader>Subscribe to our mailing list</SubHeader>
-          <Label for="mce-EMAIL">Email Address </Label>
-          <EmailInput
-            type="email"
-            value=""
-            name="EMAIL"
-            id="mce-EMAIL"
-            aria-label="Newsletter Signup"
-            aria-required="true"
-            placeholder="Email Address "
-          />
-          <Button id="gtm-subscribe-btn-footer">Subscribe</Button>
+        <Col style={{ textAlign: "left" }}>
+          <SubScribe />
         </Col>
       </Row>
     </ContactSection>
