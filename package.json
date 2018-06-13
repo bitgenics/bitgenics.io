@@ -12,10 +12,12 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build-wab": "linc build -s"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.2.1",
+    "linc-cli": "^2.2.5",
     "linc-profile-nextjs": "^0.3.0"
   },
   "linc": {
