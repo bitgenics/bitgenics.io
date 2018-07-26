@@ -25,4 +25,4 @@ The repository for the Bitgenics website and blog.
 
 `$ linc publish`
 
-'$ linc release'
+`$ linc release`
